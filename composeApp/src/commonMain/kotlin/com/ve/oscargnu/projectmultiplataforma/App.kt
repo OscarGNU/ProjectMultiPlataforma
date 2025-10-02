@@ -16,11 +16,12 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Preview
 fun App() {
     PreComposeApp {
-        Column (modifier = Modifier.fillMaxSize()) {
-        Text("Bienvenidos")
-        Text("Curso Kotlin Multiplataforma en compose")
+        val colors = getColorsTheme()
+       AppTheme {
+
+       }
     }
 
     }
-}
+
 
